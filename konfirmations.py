@@ -4,6 +4,7 @@ import random
 from time import sleep
 import argparse 
 import sys
+import configparser
 
 ###m6ned vaikev22rtused ;)
 path_to_config="konfirmations.ini"
