@@ -6,6 +6,8 @@ a program that displays helpful Konfirmations to instill Konfidence at random
 # Installation
 
 ```bash
+git clone https://github.com/m2ger2020/konfirmations
+cd konfirmations
 sudo chmod u+x ./konfirmations.py
 ./konfirmations.py
 ```
