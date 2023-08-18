@@ -5,7 +5,7 @@ a program that displays helpful Konfirmations to instill Konfidence at random
 
 # Installation
 
-```
-sudo chmod u+x ./konfirmations.py #trust me
+```bash
+sudo chmod u+x ./konfirmations.py
 ./konfirmations.py
 ```
