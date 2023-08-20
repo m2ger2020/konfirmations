@@ -1,12 +1,10 @@
 [Unit]
 Description=Self-care service
-After=graphical.target
-StartLimitIntervalSec=0[Service]
+
+[Service]
 Type=simple
-Restart=always
-RestartSec=1
-User=mina
-ExecStart=/bin/konfirmations.py
+StandardOutput=journal
+ExecStart=/bin/bash -c 'python /home/${USER}/.local/bin/konfirmations.py'
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
