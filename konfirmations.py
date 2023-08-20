@@ -7,6 +7,7 @@ import sys
 import os
 import configparser
 
+### vaikev22rtuste andmine :o...
 path_to_config="/home/"+os.getlogin()+"/.config/konfirmations/konfirmations.ini"
 faili_asukoht=""
 argparser=argparse.ArgumentParser()
@@ -27,7 +28,7 @@ if args.file:
 
 
 
-### s2tete sisselugemine
+### s2tete sisselugemine :s
 config=configparser.ConfigParser()
 config.read(path_to_config)
 if faili_asukoht=="":
@@ -38,7 +39,10 @@ intervall=float(config['USER']['MessageInterval'])
 fail=open(faili_asukoht,'r')
 kinnitused=fail.readlines()
 
+### h2mmastav s6num ;D
 print("The Konfirmation is Coming.")
+
+### t88tsykkel o__O
 while True:
     p=random.random()
     if p<=P:
