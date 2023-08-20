@@ -7,7 +7,7 @@ import sys
 import configparser
 
 ###m6ned vaikev22rtused ;)
-path_to_config="konfirmations.ini"
+path_to_config="/etc/konfirmations/konfirmations.ini"
 faili_asukoht=""
 
 ###argumentide sisselugemine k2surealt O_o
