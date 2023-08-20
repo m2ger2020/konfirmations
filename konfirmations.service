@@ -1,0 +1,12 @@
+[Unit]
+Description=Self-care service
+After=graphical.target
+StartLimitIntervalSec=0[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=mina
+ExecStart=/bin/konfirmations.py
+
+[Install]
+WantedBy=multi-user.target
