@@ -4,8 +4,10 @@ import random
 from time import sleep
 import argparse 
 import sys
+import os
+import configparser
 
-path_to_config="/konfirmations.ini"
+path_to_config="/home/"+os.getlogin()+"/.config/konfirmations/konfirmations.ini"
 faili_asukoht=""
 argparser=argparse.ArgumentParser()
 argparser.add_argument("-v","--version",help="kuvab versiooniinfo",action="store_true")
